@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignorar o ambiente virtual
+venv/
+env/
+
+# NUNCA commitar arquivos de ambiente reais
+.env
+
+# Arquivos cacheados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar pastas ocultas do sistema (opcional, mas recomendado)
+.DS_Store
