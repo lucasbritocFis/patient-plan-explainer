@@ -1,0 +1,5 @@
+pydicom
+google-generativeai
+streamlit
+reportlab
+python-dotenv
