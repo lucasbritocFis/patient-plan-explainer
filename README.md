@@ -32,3 +32,36 @@ and signed by the responsible medical physicist before delivery.
 - **Output v0.3 (Spanish):** same flow in Spanish for broader LATAM reach.
 
 ## How it will work
+DICOM RT  →  Structured extraction (pydicom)
+↓
+LLM with controlled prompt (Gemini / Claude)
+↓
+Validation + clinical disclaimer
+↓
+PDF + (later) Audio
+
+## Privacy & limitations
+
+This tool is **not a medical device** and does **not** replace clinical
+consultation. Output must be reviewed and signed by a qualified medical
+physicist or radiation oncologist before being delivered to a patient.
+DICOM data sent through this tool is processed by external LLM APIs;
+use only with anonymized or test data unless your privacy and regulatory
+review allows otherwise.
+
+## Roadmap
+
+- [ ] v0.1 — PDF output, Brazilian Portuguese
+- [ ] v0.2 — Audio output (TTS), shareable via WhatsApp
+- [ ] v0.3 — Spanish localization
+- [ ] v0.4 — Visual companion (axial / coronal / sagittal cuts with isodose)
+- [ ] v0.5 — Voice cloning of the responsible physicist (with consent)
+
+## License
+
+MIT — see [LICENSE](./LICENSE).
+
+## Author
+
+Lucas Brito, PhD — Medical Physicist & Software Developer
+[GitHub](https://github.com/lucasbritocFis) · Rio de Janeiro, Brazil
