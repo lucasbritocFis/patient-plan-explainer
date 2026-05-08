@@ -1,5 +1,6 @@
 pydicom
-google-generativeai
+google-genai
 streamlit
-reportlab
+fpdf2
+edge-tts
 python-dotenv
